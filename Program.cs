@@ -7,7 +7,7 @@ namespace lesson1_lab1
         static void Main()
         {
             Console.WriteLine("Введите имя пользвоателя");
-            var name = Console.ReadLine();
+            string name = Console.ReadLine();
             Console.WriteLine("Привет," + name + " сегодня " + DateTime.Now);            
         }
     }
